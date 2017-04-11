@@ -15,7 +15,6 @@ let prev = document.getElementById('anterior');
 let proximo = document.getElementById('proximo');
 
 proximo.addEventListener('click', function(){
-
 	i++;
 	if(i == todasAsImagens.length)
     		i = 0;
